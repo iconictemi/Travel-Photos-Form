@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+   <meta charset="utf-8">
+   <title>Chapter 5</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="ch05-proj3.css" />
+</head>
+<body>
+<header>
+     <h1>Share Your Travels</h1>
+     <p>let us know where you've been</p>
+</header>
+<main>
+   <section>
+      <form >
+         <fieldset>
+            <legend>Photo Details</legend>
+            <table>
+                <tbody>
+               <tr>
+            <td>Title
+                <br>
+            <textarea placeholder="Give your photo a descriptive name"></textarea>
+            </td>
+            </tr>
+            <tr>
+            <td>Description
+            <br>
+             <textarea placeholder="Adding a Rich description will help with search results"></textarea>
+            </td>
+            </tr>
+            </table>
+            
+            <table>
+                <tr>
+                    <td> 
+                        <p>
+                        <label>Continent</label>
+                        <br>
+                        <select name="Continent">
+                            <option>Choose Continent</option>
+                            <option>North America</option>
+                            <option>Europe</option>
+                            <option>Africa</option>
+                            <option>Asia</option>
+                        </select>
+                        </p>
+                        <label>Country</label>
+                        <br>
+                        <p>
+                        <select>
+                            <option>Choose a Country</option>
+                            <option>USA</option>
+                            <option>France</option>
+                            <option>Germany</option>
+                            <option>Mexico</option>
+                            <option>Brazil</option>
+                            <option>Thailand</option>
+                            <option>South Korea</option>
+                            
+                        </select>
+                        </p>
+                        <p>
+                            <label>City</label>
+                            <br>
+                            <input type="text">
+                        </p>
+                    </td>
+                    
+                    <td>
+                        <div class="copy">
+                        <label>Copyright?</label>
+                        <br>
+                        
+                        <input type="radio" name="copyright" value="1">All rights reserved
+                        <br>
+                    
+                      <input type="radio" name="copyright" value="2" checked>Creative Commons
+                      <br>
+                        </div>
+                        
+                        <div class="creative">
+                            <label>Creative Commons Types</label>
+                            <br>
+                           <input type="checkbox" name="CC{1}" value="1">Attribution
+                            <br>
+                             <input type="checkbox" name="CCTindex[2]" value="2">Noncommercial
+                         <br>
+                            <input type="checkbox" name="CCTindex[3]" value="3">No Derivative Works
+                            <br>
+                          
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                   <td colspan="2">
+                       <div class="agree">
+                       <label>I accept the Software license</label>
+                    <input type="checkbox" name="accept[4]" value="4">
+                       </div>
+                   </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Rate this Photo
+                        <br>
+                        <input type="number" min="1" max=5 name="rate">
+                        </label>
+                        <br>
+                        <label>Color Collection
+                            <br>
+                            <input type="color" name="colcollect"> 
+                        </label>
+                    </td>
+                    <td>
+                        <div class="copy">
+                        <label>Date Taken:
+                            <br>
+                            <input type="date" name="date">
+                        </label>
+                        <br>
+                        <label>Time Taken:
+                            <br>
+                            <input type="time" name="time">
+                        </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                
+                    <td colspan="2"> 
+                        <div class="buttons">
+                        <input type="submit" class="rounded">
+                        <input type="reset" value="Clear form" class="rounded">
+                     </div>
+                        </td>
+               
+                </tr>
+                
+            </tbody>
+            </table>
+         </fieldset>
+      </form>       
+   </section>
+</main>  
+
+
+</body>
+</html>
